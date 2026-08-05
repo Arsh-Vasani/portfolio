@@ -1,0 +1,9 @@
+allowBuilds:
+  unrs-resolver: true
+
+minimumReleaseAgeExclude:
+  - motion
+  - motion-dom
+  - motion-utils
+  - framer-motion
+  - lenis
