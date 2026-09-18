@@ -1,0 +1,1 @@
+export const SITE = "https://arsh-vasani-resume.vercel.app";

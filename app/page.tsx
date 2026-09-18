@@ -1,19 +1,19 @@
-import { HeroContent } from "@/components/sections/hero-content";
-import { About } from "@/components/sections/about";
-import { Skills } from "@/components/sections/skills";
-import { Experience } from "@/components/sections/experience";
-import { Projects } from "@/components/sections/projects";
-import { Contact } from "@/components/sections/contact";
+import NavBar from "@/components/NavBar";
+import HeroSection from "@/components/sections/HeroSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
+import WorksSection from "@/components/sections/WorksSection";
+import ContactFooter from "@/components/sections/ContactFooter";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <HeroContent />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Contact />
+      <NavBar />
+      <HeroSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <WorksSection />
+      <ContactFooter />
     </>
   );
 }
