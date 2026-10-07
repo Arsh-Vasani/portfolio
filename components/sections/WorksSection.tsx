@@ -85,7 +85,7 @@ export default function WorksSection() {
               href={SITE}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 text-sm font-medium tracking-wide text-ink"
+              className="group relative inline-flex items-center gap-2 py-2 text-sm font-medium tracking-wide text-ink"
             >
               <span className="wave-hold">
                 View my resume in the browser

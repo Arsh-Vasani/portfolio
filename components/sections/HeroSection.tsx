@@ -13,7 +13,7 @@ export default function HeroSection() {
         <Clock />
       </div>
 
-      <div className="relative z-10 mx-auto flex w-full max-w-site flex-1 flex-col px-6 pb-12 pt-4 sm:px-10 lg:px-30">
+      <div className="relative z-10 mx-auto flex w-full max-w-site flex-1 flex-col px-6 pb-12 pt-24 sm:px-10 lg:px-30">
         <div className="flex flex-1 flex-col justify-center">
           <h1 className="sr-only">Arsh Vasani — Front-End Developer</h1>
           <div className="flex flex-col gap-12 lg:flex-row lg:items-center lg:justify-between lg:gap-14">

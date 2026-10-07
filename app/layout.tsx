@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Mona_Sans, Work_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const monaSans = Mona_Sans({
   variable: "--font-mona",
@@ -36,12 +37,9 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className={cn("scroll-smooth", monaSans.variable, workSans.variable)}
-    >
+    <html lang="en" className={cn(monaSans.variable, workSans.variable)}>
       <body className="min-h-screen bg-paper font-body text-ink antialiased selection:bg-ink selection:text-cardinal">
-        {children}
+        <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
   );

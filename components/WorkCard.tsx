@@ -21,7 +21,7 @@ export default function WorkCard({ work, index }: { work: Work; index: number })
         0{index + 1}
       </span>
 
-      <div className="work-media work-glass relative aspect-4/3 overflow-hidden rounded-2xl border border-ink/10 bg-fog shadow-card">
+      <div className="work-media work-glass relative overflow-hidden rounded-2xl border border-ink/10 bg-fog shadow-card">
         {work.media}
         <Badge className="absolute bottom-3 left-3 z-10 rounded-full bg-charcoal/85 px-3 py-1 text-11 font-medium tracking-wide text-mist backdrop-blur-sm">
           {work.note}
@@ -51,7 +51,7 @@ export default function WorkCard({ work, index }: { work: Work; index: number })
               href={work.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-flex items-center gap-2"
+              className="relative inline-flex items-center gap-2 before:absolute before:inset-x-0 before:-top-3 before:-bottom-3 before:content-['']"
             >
               <span className="wave-hold">
                 View live site

@@ -57,7 +57,7 @@ export default function ContactFooter() {
                   href={href}
                   target={href.startsWith("http") ? "_blank" : undefined}
                   rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="group/link mx-3 inline-flex items-center gap-2 text-13 uppercase tracking-ultra text-mist/70 transition-colors duration-300 hover:text-mist"
+                  className="group/link relative mx-3 inline-flex items-center gap-2 text-13 uppercase tracking-ultra text-mist/70 transition-colors duration-300 before:absolute before:inset-x-0 before:-top-2 before:-bottom-2 before:content-[''] hover:text-mist"
                 >
                   <span className="h-1 w-1 rounded-full bg-mist/30 transition-colors duration-300 group-hover/link:bg-leaf" />
                   {label}
